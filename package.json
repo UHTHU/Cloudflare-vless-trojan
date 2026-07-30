@@ -1,0 +1,27 @@
+{
+  "name": "cloudflare-vless-trojan",
+  "version": "1.0.0",
+  "description": "<img width=\"766\" height=\"181\" alt=\"9edae247c703bef887a2d680c77c3c17\" src=\"https://github.com/user-attachments/assets/a641b36d-59ba-41e4-ac6f-6622f786187e\" />",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "build:minify": "node build.js --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UHTHU/Cloudflare-vless-trojan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/UHTHU/Cloudflare-vless-trojan/issues"
+  },
+  "homepage": "https://github.com/UHTHU/Cloudflare-vless-trojan#readme",
+  "dependencies": {
+    "esbuild": "^0.28.1",
+    "javascript-obfuscator": "^5.5.0"
+  }
+}

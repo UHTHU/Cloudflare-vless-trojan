@@ -1165,8 +1165,7 @@ function gettyConfig(userID, hostName) {
 	}
 
 function getclConfig(userID, hostName) {
-return `
-port: 7890
+	return `port: 7890
 allow-lan: true
 mode: rule
 log-level: info
